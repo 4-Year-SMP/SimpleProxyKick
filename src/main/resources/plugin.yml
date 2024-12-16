@@ -1,0 +1,17 @@
+name: SimpleProxyKick
+version: '1.0-SNAPSHOT'
+main: gg.jos.simpleProxyKick.SimpleProxyKick
+api-version: '1.19'
+log-prefix: '[SimpleProxyKick] '
+authors: [ Jos ]
+description: Simple Plugin to forward backend server kicks to the proxy
+website: https://jos.gg/
+commands:
+  simpleproxykickreload:
+    description: Reloads the SimpleProxyKick configuration
+    usage: /<command>
+    permission: simpleproxykick.reload
+permissions:
+  simpleproxykick.reload:
+    description: Allows the player to reload the SimpleProxyKick configuration
+    default: op

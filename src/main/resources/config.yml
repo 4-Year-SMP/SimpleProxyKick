@@ -1,0 +1,6 @@
+kick-reasons:
+  - "AFK"
+  - "Idling"
+
+no-permission: "&cYou do not have permission to use this command!"
+reload-command-success: "&aReloaded the config for SimpleProxyKick!"
